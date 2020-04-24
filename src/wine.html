@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Wine CSS -->
+    <link rel="stylesheet" href="../css/wine.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- Fontawesome -->
+    <script src="../js/all.js"></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wine</title>
+  </head>
+  <body>
+    <div class="limited-container mx-auto mb-3">
+      <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light pt-3 sticky-top">
+          <a href="index.html" class="navbar-brand">
+            <img src="../images/logo-222.png" alt="Garett Marsh" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse pr-2" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item pr-3">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item pr-3">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item pr-3">
+                <a href="wine.html" class="nav-link active">Wine</a>
+              </li>
+              <li class="nav-item pr-3">
+                <a href="location.html" class="nav-link">Location</a>
+              </li>
+              <li class="nav-item d-flex">
+                <img
+                  src="../images/shopping-cart.svg"
+                  alt="Items"
+                  class="my-auto"
+                />
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <!-- Main -->
+    <main>
+      <div class="container-fluid wine-container">
+        <div class="col-sm-8 col-xs-12 mx-auto">
+          <h1 class="display-4 text-center text-danger">
+            Wine Selection
+          </h1>
+          <div class="underline mb-3 mx-auto"></div>
+          <p class="text-center mb-4 px-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit eius
+            repellat vero repudiandae molestiae qui?
+          </p>
+        </div>
+
+        <!-- 3 Wines -->
+        <div class="row limited-container mx-auto">
+          <div class="col-md-4">
+            <div class="card mx-auto">
+              <img
+                src="../images/wine/wine-1.png"
+                alt="Wine 1"
+                class="card-img-top img-fluid align-self-center pt-3"
+              />
+
+              <div class="card-body">
+                <h2 class="card-title text-center">Wine 1</h2>
+                <p
+                  class="card-text text-left px-lg-4 px-md-3 px-sm-4 px-4 pb-3"
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+                  placeat hic atque, libero nam officia.
+                </p>
+
+                <p class="card-text d-flex justify-content-around px-4">
+                  <small>&#8369; 576</small>
+                  <small
+                    ><a href="#"
+                      ><img src="../images/shopping-cart.svg" alt="Items" /></a
+                  ></small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-4 my-sm-5 my-md-0">
+            <div class="card mx-auto">
+              <img
+                src="../images/wine/wine-2.png"
+                alt="Wine 2"
+                class="card-img-top middle-wine img-fluid align-self-center pt-3"
+              />
+
+              <div class="card-body">
+                <h2 class="card-title text-center">Wine 2</h2>
+                <p
+                  class="card-text text-left px-lg-4 px-md-3 px-sm-4 px-4 pb-3"
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+                  placeat hic atque, libero nam officia.
+                </p>
+
+                <p class="card-text d-flex justify-content-around px-4">
+                  <small>&#8369; 576</small>
+                  <small
+                    ><a href="#"
+                      ><img src="../images/shopping-cart.svg" alt="Items" /></a
+                  ></small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mx-auto">
+              <img
+                src="../images/wine/wine-3.png"
+                alt="Wine 3"
+                class="card-img-top img-fluid align-self-center pt-3"
+              />
+
+              <div class="card-body">
+                <h2 class="card-title text-center">Wine 3</h2>
+                <p
+                  class="card-text text-left px-lg-4 px-md-3 px-sm-4 px-4 pb-3"
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+                  placeat hic atque, libero nam officia.
+                </p>
+
+                <p class="card-text d-flex justify-content-around px-4">
+                  <small>&#8369; 576</small>
+                  <small
+                    ><a href="#"
+                      ><img src="../images/shopping-cart.svg" alt="Items" /></a
+                  ></small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col text-center mt-4 mb-4">
+          <a href="#" class="badge badge-pill badge-danger px-5 py-3"
+            >Click Here</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

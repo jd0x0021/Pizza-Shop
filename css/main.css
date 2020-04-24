@@ -1,0 +1,606 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif !important;
+  /* background-color: #f8f9fa !important; */
+  background-color: #fefefa !important;
+}
+
+.limited-container {
+  max-width: 1100px !important;
+  padding: 0 35px;
+}
+
+h1,
+h2,
+h5 {
+  font-family: "Courgette", cursive;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.card {
+  transition: all 0.2s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgb(80, 80, 80);
+}
+
+/* General End */
+
+/* Navigation */
+
+nav img {
+  width: 65px;
+}
+
+nav ul img {
+  width: 20px;
+}
+
+/* Showcase */
+.showcase {
+  height: 89vh;
+  padding-bottom: 80px;
+}
+
+.showcase-text h1 {
+  font-size: 5rem;
+}
+
+.showcase a {
+  font-family: "Mitr", sans-serif !important;
+  letter-spacing: 0.4rem;
+}
+
+/* Carousel */
+.carousel-inner img {
+  width: 100%;
+  max-height: 318px;
+}
+
+.carousel-indicators li {
+  cursor: pointer;
+  border: none;
+  box-shadow: inset 3px 3px 3px 3px #d6a726;
+}
+
+.carousel-indicators .active {
+  box-shadow: inset 1px 1px 1px 1px #130724;
+  background-color: #3b245d;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/* Pizza Selection */
+
+.underline {
+  width: 250px;
+  height: 5px;
+  background-color: #f8b733;
+}
+
+.pizza-selection-container .card-img-top {
+  width: 50%;
+}
+
+.pizza-selection-container p {
+  font-size: 0.9rem;
+}
+
+/* Main Pizza */
+.main-pizza-container {
+  max-width: 1200px !important;
+}
+
+/* Discount */
+.discount-container {
+  position: relative;
+  margin-top: 100px;
+  background-image: radial-gradient(#fbe8b5, #fed872);
+}
+
+.discount-container .member-text {
+  padding: 0 15px 0 48px;
+}
+
+.discount-container h1 {
+  font-size: 1.6rem;
+}
+
+.discount-container p {
+  font-size: 0.8rem;
+}
+
+.discount-image-wrapper {
+  padding: 50px;
+  position: absolute;
+}
+
+.discount-container img {
+  max-height: 350px;
+  position: absolute;
+  top: -75px;
+  right: 40px;
+}
+
+.discount-image-wrapper::before {
+  content: "";
+  display: block;
+  background: linear-gradient(to right, #f7ab30, #f98c29);
+  width: 269px;
+  height: 269px;
+  position: absolute;
+  top: -40px;
+  right: 60px;
+  border-radius: 50%;
+}
+
+/* Delivery */
+.delivery-container {
+  margin-top: 100px;
+  background-image: radial-gradient(#353f52, #121622);
+}
+
+.delivery-container img {
+  max-width: 350px;
+}
+
+/* Side Dish */
+
+/* Footer */
+.social .fa-facebook-square {
+  font-size: 2rem;
+}
+
+.social .fa-instagram {
+  font-size: 2rem;
+}
+
+.social .fa-twitter-square {
+  font-size: 2rem;
+}
+
+.hr {
+  border-top: 1px solid white;
+  width: 85%;
+}
+
+/* Media Queries */
+@media (max-width: 1069px) {
+  .discount-container img {
+    max-height: 380px;
+    top: -100px;
+    right: 40px;
+  }
+
+  .discount-image-wrapper::before {
+    width: 280px;
+    height: 280px;
+    top: -50px;
+    right: 70px;
+  }
+}
+
+@media (max-width: 1039px) {
+  .discount-container img {
+    max-height: 380px;
+    top: -100px;
+    right: 40px;
+  }
+
+  .discount-image-wrapper::before {
+    width: 280px;
+    height: 280px;
+    top: -55px;
+    right: 76px;
+  }
+}
+
+@media (max-width: 1003px) {
+  .discount-container img {
+    max-height: 380px;
+    top: -100px;
+    right: 10px;
+  }
+
+  .discount-image-wrapper::before {
+    width: 280px;
+    height: 280px;
+    top: -50px;
+    right: 40px;
+  }
+}
+
+@media (max-width: 940px) {
+  .discount-container .member-text {
+    padding: 0 65px 0 25px !important;
+  }
+
+  .discount-container img {
+    max-height: 380px;
+    top: -51px;
+    right: 10px;
+  }
+
+  .discount-image-wrapper::before {
+    width: 280px;
+    height: 280px;
+    top: -35px;
+    right: 38px;
+  }
+}
+/* Medium */
+@media (max-width: 992px) {
+  .pizza-selection-container .card-img-top {
+    width: 63%;
+  }
+
+  .footer-left {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .showcase-text h1 {
+    font-size: 4.3rem;
+  }
+}
+
+@media (max-width: 840px) {
+  .showcase-text h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .discount-container .member-text {
+    padding: 0 85px 0 25px !important;
+  }
+
+  .footer-left {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .discount-container .member-text {
+    padding: 0 95px 0 25px !important;
+  }
+
+  .discount-container img {
+    max-height: 380px;
+    top: -3px;
+    right: 10px;
+  }
+
+  .discount-image-wrapper::before {
+    width: 280px;
+    height: 280px;
+    top: 15px;
+    right: 45px;
+  }
+
+  .footer-left {
+    font-size: 0.69rem;
+  }
+}
+
+/* Small */
+@media (max-width: 768px) {
+  .limited-container {
+    max-width: 1100px;
+    padding: 0 50px;
+  }
+
+  .inner-limited-container {
+    padding: 0 95px 0 95px !important;
+  }
+
+  .pizza-selection-container .card {
+    width: 450px;
+  }
+
+  .pizza-selection-container .card-img-top {
+    width: 40%;
+  }
+
+  .main-pizza-container .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .main-pizza-container .main-pizza-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 220px;
+  }
+
+  .discount-image-wrapper {
+    padding: 150px;
+  }
+
+  .discount-container img {
+    max-height: 380px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+  }
+
+  .discount-image-wrapper::before {
+    width: 280px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+  }
+
+  .side-dish-container .card-title {
+    font-size: 1.5rem;
+  }
+
+  .side-dish-container .card-text {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 750px) {
+  .showcase-text h1 {
+    font-size: 3.3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .inner-limited-container {
+    padding: 0 50px 0 50px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .showcase-text h1 {
+    font-size: 4rem;
+  }
+
+  .showcase p {
+    padding-left: 0 !important;
+  }
+
+  .showcase a {
+    letter-spacing: 0.3rem;
+  }
+
+  .payment-container p {
+    font-size: 0.9rem;
+  }
+
+  .payment-container h2 {
+    font-size: 1.5rem;
+  }
+
+  footer h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 576px) {
+  .inner-limited-container {
+    padding: 0 20px 0 20px !important;
+  }
+
+  .carousel-inner img {
+    max-height: 230px;
+  }
+
+  .showcase-text h1 {
+    font-size: 3.5rem;
+  }
+
+  .pizza-selection-container .card {
+    width: 350px;
+  }
+
+  .main-pizza-container .main-pizza-img {
+    height: 230px;
+  }
+
+  .discount-container img {
+    max-height: 340px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -38%);
+  }
+
+  .discount-image-wrapper::before {
+    width: 260px;
+    height: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+
+  .payment-container {
+    padding: 0 69px;
+  }
+
+  .delivery-container {
+    margin-top: 40px;
+  }
+
+  .delivery-container img {
+    max-width: 280px;
+  }
+
+  .side-dish-container .card {
+    width: 350px;
+  }
+
+  footer h2 {
+    text-align: center;
+  }
+
+  footer .limited-container {
+    padding: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .main-pizza-container .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .main-pizza-container h5 {
+    font-size: 1rem;
+  }
+
+  .main-pizza-container small {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .pizza-selection-container .card {
+    width: 300px;
+  }
+
+  .side-dish-container .card {
+    width: 300px;
+  }
+
+  .limited-container {
+    padding: 0 23px;
+  }
+}
+
+@media (max-width: 450px) {
+  nav img {
+    width: 53px;
+  }
+
+  .navbar-toggler {
+    padding: 4px 3px !important;
+  }
+  .navbar-toggler-icon {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .main-pizza-container h5 {
+    font-size: 0.9rem;
+  }
+
+  .main-pizza-container small {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .showcase-text h1 {
+    font-size: 2.8rem;
+  }
+
+  .showcase-text p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-inner img {
+    max-height: 190px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-pizza-container .main-pizza-img {
+    height: 160px;
+    width: 130px;
+    transition: all 2s ease-in-out;
+    z-index: 2;
+  }
+
+  .main-pizza-container .main-pizza-img:hover {
+    transform: scale(2.2) translate(-23%, -30%) !important;
+    transition-duration: 0.5s;
+    z-index: 2;
+  }
+
+  .main-pizza-container h5 {
+    font-size: 0.9rem;
+  }
+
+  .main-pizza-container small {
+    font-size: 0.6rem;
+  }
+
+  .discount-container img {
+    max-height: 280px;
+    transform: translate(-50%, -28%);
+  }
+
+  .discount-image-wrapper::before {
+    width: 210px;
+    height: 210px;
+    transform: translate(-50%, -20%);
+  }
+
+  .pizza-selection-container .card {
+    width: 250px;
+  }
+
+  .side-dish-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .side-dish-container .card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .showcase-text h1 {
+    font-size: 2.6rem;
+  }
+
+  .showcase-text p {
+    font-size: 0.8rem;
+  }
+
+  .carousel-inner img {
+    max-height: 190px;
+  }
+}
+
+@media (max-width: 348px) {
+  .pizza-selection-container .card {
+    width: 200px;
+  }
+
+  .main-pizza-container .main-pizza-img {
+    height: 160px;
+    width: 130px;
+    transform: translate(-45%, -50%);
+    transition: all 2s ease-in-out;
+    z-index: 2;
+  }
+
+  .side-dish-container .card {
+    width: 200px;
+  }
+
+  .delivery-container img {
+    max-width: 230px;
+  }
+}

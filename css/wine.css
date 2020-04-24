@@ -1,0 +1,115 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h5 {
+  font-family: "Courgette", cursive;
+}
+
+body {
+  font-family: "Muli", sans-serif !important;
+  /* background-color: #f8f9fa !important; */
+  background-color: #fefefa !important;
+}
+
+.limited-container {
+  max-width: 1100px !important;
+  padding: 0 35px;
+}
+/* General End */
+
+/* Navigation */
+
+nav img {
+  width: 65px;
+}
+
+nav ul img {
+  width: 20px;
+}
+
+/* Wine Selection */
+.underline {
+  width: 250px;
+  height: 5px;
+  background-color: #f8b733;
+}
+
+.wine-container h1 {
+  font-size: 2.8rem;
+}
+
+.wine-container .card {
+  transition: all 0.2s ease-in;
+}
+
+.wine-container .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgb(80, 80, 80);
+}
+
+.wine-container .card-img-top {
+  width: 12%;
+  max-height: 146px;
+}
+
+/* .wine-container .middle-wine {
+  width: 12%;
+} */
+
+.wine-container h2 {
+  font-size: 1.6rem;
+}
+
+.wine-container p {
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .limited-container {
+    max-width: 1100px;
+    padding: 0 50px;
+  }
+
+  .wine-container .card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .wine-container .card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  nav img {
+    width: 53px;
+  }
+
+  .navbar-toggler {
+    padding: 4px 3px !important;
+  }
+
+  .navbar-toggler-icon {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .wine-container .card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .wine-container .card {
+    width: 200px;
+  }
+}
