@@ -39,6 +39,9 @@ h5 {
 /* General End */
 
 /* Navigation */
+nav {
+  background-color: #fff;
+}
 
 nav img {
   width: 65px;
