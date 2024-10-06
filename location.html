@@ -1,97 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Pizza Shop</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Pizza Shop</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Location CSS -->
+		<link rel="stylesheet" href="./css/location.css" />
 
-  <!-- Location CSS -->
-  <link rel="stylesheet" href="./css/location.css" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<!-- Fontawesome -->
+		<script src="./js/all.js"></script>
 
-  <!-- Fontawesome -->
-  <script src="./js/all.js"></script>
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Muli&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+			rel="stylesheet"
+		/>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
-
-  <!-- favicons
+		<!-- favicons
   ================================================== -->
-  <link rel="apple-touch-icon" sizes="200x200" href="./images/logo-222.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo-222.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/logo-222.png">
-</head>
+		<link rel="apple-touch-icon" sizes="200x200" href="./images/logo-222.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/logo-222.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./images/logo-222.png"
+		/>
+	</head>
 
-<body>
-  <div class="limited-container mx-auto mb-4">
-    <header>
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-md navbar-light pt-3 sticky-top">
-        <a href="index.html" class="navbar-brand">
-          <img src="./images/logo-222.png" alt="Garett Marsh" />
-        </a>
+	<body>
+		<div class="limited-container mx-auto mb-4">
+			<header>
+				<!-- Navigation -->
+				<nav class="navbar navbar-expand-md navbar-light pt-3 sticky-top">
+					<a href="index.html" class="navbar-brand">
+						<img src="./images/logo-222.png" alt="Crave Co. Pizza" />
+					</a>
 
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+					<button
+						class="navbar-toggler"
+						data-toggle="collapse"
+						data-target="#navbarMenu"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-        <div class="collapse navbar-collapse pr-2" id="navbarMenu">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item pr-3">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item pr-3">
-              <a href="about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item pr-3">
-              <a href="wine.html" class="nav-link">Wine</a>
-            </li>
-            <li class="nav-item pr-3">
-              <a href="location.html" class="nav-link active">Location</a>
-            </li>
-            <li class="nav-item d-flex">
-              <img src="./images/shopping-cart.svg" alt="Items" class="my-auto" />
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-  </div>
+					<div class="collapse navbar-collapse pr-2" id="navbarMenu">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item pr-3">
+								<a href="index.html" class="nav-link">Home</a>
+							</li>
+							<li class="nav-item pr-3">
+								<a href="about.html" class="nav-link">About</a>
+							</li>
+							<li class="nav-item pr-3">
+								<a href="wine.html" class="nav-link">Wine</a>
+							</li>
+							<li class="nav-item pr-3">
+								<a href="location.html" class="nav-link active">Location</a>
+							</li>
+							<li class="nav-item d-flex">
+								<img
+									src="./images/shopping-cart.svg"
+									alt="Items"
+									class="my-auto"
+								/>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+		</div>
 
-  <!-- Main -->
-  <main>
-    <div class="container-fluid">
-      <div class="row showcase mx-auto limited-container">
-        <div
-          class="google-map-container mb-5 col-md-7 col-sm-12 col-xs-12 col-12 embed-responsive embed-responsive-4by3">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62931.245233802794!2d123.84250326372333!3d9.663703843584367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aa4db4b0caac5d%3A0x267a3a6d70572321!2sTagbilaran%20City%2C%20Bohol!5e0!3m2!1sen!2sph!4v1587709074566!5m2!1sen!2sph"
-            allowfullscreen></iframe>
-        </div>
+		<!-- Main -->
+		<main>
+			<div class="container-fluid">
+				<div class="row showcase mx-auto limited-container">
+					<div
+						class="google-map-container mb-5 col-md-7 col-sm-12 col-xs-12 col-12 embed-responsive embed-responsive-4by3"
+					>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62931.245233802794!2d123.84250326372333!3d9.663703843584367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aa4db4b0caac5d%3A0x267a3a6d70572321!2sTagbilaran%20City%2C%20Bohol!5e0!3m2!1sen!2sph!4v1587709074566!5m2!1sen!2sph"
+							allowfullscreen
+						></iframe>
+					</div>
 
-        <div class="col-md-5 col-sm-12 col-xs-12 col-12">
-          <div class="row">
-            <div class="col-12 text-center">
-              <img src="./images/location/location.jpg" alt="Location" class="img-fluid" />
-            </div>
-          </div>
+					<div class="col-md-5 col-sm-12 col-xs-12 col-12">
+						<div class="row">
+							<div class="col-12 text-center">
+								<img
+									src="./images/location/location.jpg"
+									alt="Location"
+									class="img-fluid"
+								/>
+							</div>
+						</div>
 
-          <div class="col-12 text-center">
-            <img src="./images/location/see-location.svg" alt="Location" class="img-fluid p-5" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+						<div class="col-12 text-center">
+							<img
+								src="./images/location/see-location.svg"
+								alt="Location"
+								class="img-fluid p-5"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
-  <!-- jQuery -->
-  <script src="./js/jquery-3.4.1.min.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="./js/bootstrap.min.js"></script>
-</body>
-
+		<!-- jQuery -->
+		<script src="./js/jquery-3.4.1.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="./js/bootstrap.min.js"></script>
+	</body>
 </html>
