@@ -1,5 +1,5 @@
 # Pizza-Shop
-A static website created with HTML, CSS, and Bootstrap v4.4.1. <a href="https://parajdox.github.io/Pizza-Shop/">Check the Website Live!</a>
+A static website created with HTML, CSS, and Bootstrap v4.4.1. <a href="https://jd0x0021.github.io/Pizza-Shop/">Check the Website Live!</a>
 
 <br/>
 
